@@ -9,7 +9,7 @@
 import XCTest
 @testable import Tasks
 
-class KGContentTests: XCTestCase {
+class ContentTests: XCTestCase {
     
     // MARK: Properties
     

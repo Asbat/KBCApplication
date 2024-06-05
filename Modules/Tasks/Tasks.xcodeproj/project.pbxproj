@@ -48,11 +48,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0956000BC2D0E8A14642F49B /* Pods-KGCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGCore.debug.xcconfig"; path = "Target Support Files/Pods-KGCore/Pods-KGCore.debug.xcconfig"; sourceTree = "<group>"; };
-		0CAD4400219215355DC0CE2A /* Pods-KGCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGCore.release.xcconfig"; path = "Target Support Files/Pods-KGCore/Pods-KGCore.release.xcconfig"; sourceTree = "<group>"; };
-		18A48DDC83E17FA41FB53BD5 /* Pods-KGContent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGContent.debug.xcconfig"; path = "Target Support Files/Pods-KGContent/Pods-KGContent.debug.xcconfig"; sourceTree = "<group>"; };
 		51381280900783157022757F /* Pods-Tasks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tasks.debug.xcconfig"; path = "Target Support Files/Pods-Tasks/Pods-Tasks.debug.xcconfig"; sourceTree = "<group>"; };
-		990880444C3B95E78A8D81E3 /* Pods-KGContent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGContent.release.xcconfig"; path = "Target Support Files/Pods-KGContent/Pods-KGContent.release.xcconfig"; sourceTree = "<group>"; };
 		A2F099DA11F45B8D66A26D89 /* Pods-Tasks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tasks.release.xcconfig"; path = "Target Support Files/Pods-Tasks/Pods-Tasks.release.xcconfig"; sourceTree = "<group>"; };
 		AD4D674A97F113A2B088B14E /* Pods_Tasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D729C6732BFDE7A80006C7DF /* TasksProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksProvider.swift; sourceTree = "<group>"; };
@@ -68,8 +64,6 @@
 		D77091E82BFDFA7E00F89300 /* TrafficLightRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightRepositoryProtocol.swift; sourceTree = "<group>"; };
 		D79A21442BE28B9A000601EF /* TasksTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTests.swift; sourceTree = "<group>"; };
 		D79A21452BE28B9A000601EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D79A21852BE2A029000601EF /* KGCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KGCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D79A21862BE2A029000601EF /* KGUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KGUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AB00EE2C07750400F387ED /* TasksRepositoryMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksRepositoryMock.swift; sourceTree = "<group>"; };
 		D7DF9B2E23C0EFB7005C8884 /* Tasks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tasks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DF9B3723C0EFB7005C8884 /* TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				D77091DF2BFDF8A000F89300 /* Core.framework */,
-				D79A21852BE2A029000601EF /* KGCore.framework */,
-				D79A21862BE2A029000601EF /* KGUI.framework */,
 				AD4D674A97F113A2B088B14E /* Pods_Tasks.framework */,
 			);
 			name = Frameworks;
@@ -110,10 +102,6 @@
 		B01AE5D1D7E8F95C93F2829A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0956000BC2D0E8A14642F49B /* Pods-KGCore.debug.xcconfig */,
-				0CAD4400219215355DC0CE2A /* Pods-KGCore.release.xcconfig */,
-				18A48DDC83E17FA41FB53BD5 /* Pods-KGContent.debug.xcconfig */,
-				990880444C3B95E78A8D81E3 /* Pods-KGContent.release.xcconfig */,
 				51381280900783157022757F /* Pods-Tasks.debug.xcconfig */,
 				A2F099DA11F45B8D66A26D89 /* Pods-Tasks.release.xcconfig */,
 			);
